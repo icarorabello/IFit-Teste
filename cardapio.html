@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/cardapio.css">
+        <link rel="shortcut icon" href="assets/img/Favicon.png">
+        <link rel="stylesheet" href="assets/css/index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/3f5354be84.js" crossorigin="anonymous"></script>
+        <title>I Fit - Cardápio</title>
+    </head>
+    <body>
+        <!--Header IFit-->
+        <section class="cardap-header" id="Inicio">
+            <nav>
+                <a href="index.html"><img src="assets/img/Logo_Ifit.png" alt="I Fit logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">INÍCIO</a></li>
+                        <li><a href="#Cardápio">CARDÁPIO</a></li>
+                        <li><a href="index.html#Planos">PLANOS</a></li>
+                        <li><a href="fale.html">CONTATO</a></li>
+                    </ul>
+                </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> CARDÁPIO </h1>
+        </section>
+        <!--Cardápio-->
+        <section id="Cardápio">
+            <div class="cardap-container">
+                <h1>
+                    <div class="top-ico">
+                        <button onclick="myFunction()">
+                            <span class="glyphicon glyphicon-user my-account-icon"></span> 
+                        </button>
+                        |
+                        <span class="glyphicon glyphicon-shopping-cart my-cart-icon">
+                            <span class="badge badge-notify my-cart-badge"></span>
+                        </span>
+                    </div>
+                </h1>
+                <h1 id="categorias"> Lanches </h1>
+                <br><br><br>
+                <div class="cardap-row">
+                    <div id="cardap-produt" class="col-md-3 text-center">
+                        <img src="assets/img/comidas/chips_de_batata_doce.png" alt="">
+                        <br><br>
+                        <h3>Chips de batata doce<br><strong>R$ 5,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="1" data-name="Chips de batata doce" data-summary="Chips de batata doce" data-price="5" data-quantity="1" data-image="assets/img/comidas/chips_de_batata_doce.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt" class="col-md-3 text-center">
+                        <img src="assets/img/comidas/chips_de_banana_da_terra.png" alt="">
+                        <br><br>
+                        <h3>Chips de banana da terra<br><strong>R$ 5,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="2" data-name="Chips de banana da terra" data-summary="Chips de banana da terra" data-price="5" data-quantity="1" data-image="assets/img/comidas/chips_de_banana_da_terra.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt" class="col-md-3 text-center">
+                        <img src="assets/img/comidas/coxinha_fitness.png" alt="">
+                        <br><br>
+                        <h3>Coxinhas fitness<br><strong>R$ 3,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="3" data-name="Coxinhas fitness" data-summary="Coxinhas fitness" data-price="3" data-quantity="1" data-image="assets/img/comidas/coxinha_fitness.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt" class="col-md-3 text-center">
+                        <img src="assets/img/comidas/crepioca_verde.png" alt="">
+                        <br><br>
+                        <h3>Crepioca verde<br><strong>R$ 12</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="3" data-name="Crepioca verde" data-summary="Crepioca verde" data-price="12" data-quantity="1" data-image="assets/img/comidas/crepioca_verde.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                </div>
+                <hr>
+                <h1 id="categorias"> Pratos Principais </h1>
+                <br><br><br>
+                <div class="cardap-row">
+                    <div id="cardap-produt" class="col-md-3 text-center">
+                        <img src="assets/img/comidas/chips_de_batata_doce.png" alt="">
+                        <br><br>
+                        <h3>Chips de batata doce<br><strong>R$ 5,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="1" data-name="Chips de batata doce" data-summary="Chips de batata doce" data-price="5" data-quantity="1" data-image="assets/img/comidas/chips_de_batata_doce.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt" class="col-md-3 text-center">
+                        <img src="assets/img/comidas/chips_de_banana_da_terra.png" alt="">
+                        <br><br>
+                        <h3>Chips de banana da terra<br><strong>R$ 5,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="2" data-name="Chips de banana da terra" data-summary="Chips de banana da terra" data-price="5" data-quantity="1" data-image="assets/img/comidas/chips_de_banana_da_terra.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt" class="col-md-3 text-center">
+                        <img src="assets/img/comidas/coxinha_fitness.png" alt="">
+                        <br><br>
+                        <h3>Coxinhas fitness<br><strong>R$ 3,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="3" data-name="Coxinhas fitness" data-summary="Coxinhas fitness" data-price="3" data-quantity="1" data-image="assets/img/comidas/coxinha_fitness.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt" class="col-md-3 text-center">
+                        <img src="assets/img/comidas/crepioca_verde.png" alt="">
+                        <br><br>
+                        <h3>Crepioca verde<br><strong>R$ 12</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="3" data-name="Crepioca verde" data-summary="Crepioca verde" data-price="12" data-quantity="1" data-image="assets/img/comidas/crepioca_verde.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Rodapé-->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="footer-col">
+                        <h4>Sobre</h4>
+                        <span>
+                            IFIT é uma empresa brasileira que 
+                            possibilita o acesso de todos a uma 
+                            vida mais saudável, através de cardápios 
+                            que se encaixam na sua dieta.
+                        </span>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Menu</h4>
+                        <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="#Cardápio">Cardápio</a></li>
+                            <li><a href="index.html#Planos">Planos</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="fale.html">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Ajuda</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Reclamações</a></li>
+                            <li><a href="#">Portal do Cliente</a></li>
+                            <li><a href="#">Termos de Serviço</a></li>
+                            <li><a href="#">Central de Privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li><a href="#">Pacotes</a></li>
+                            <li><a href="#">Seja nosso parceiro</a></li>
+                            <li><a href="#">Conheça Nossas Instalações</a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Redes Sociais</h4>
+                        <div class="fsocial-links">
+                            <a href="https://www.instagram.com/ifitsocial/" target="_blank" title="Instagram I Fit"><i class="fab fa-instagram"></i></a>
+                            <a href="https://bit.ly/3cNC1zz" target="_blank" title="Youtube I Fit"><i class="fab fa-youtube"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=+5521981528333" target="_blank" title="Whatsapp I Fit"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <p>
+                        © 2021 - I Fit Delivery │ Todos os direitos reservados. <br>
+                        © <a href="https://sites.google.com/view/facestudioofc/sobre" id="fsfo" target="_blank">
+                        Face Studio Group LTDA</a> │
+                        Duque de Caxias, RJ, Brasil.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!--Jquery-->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <!--BootStrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+        <!--Carrinho-->
+        <script src="assets/js/jquery.mycart.js"></script>
+        <script src="assets/js/carrinho.js"></script>
+        <script>
+            function myFunction() {
+                alert("Aplicação em desenvolvimento...");
+            }
+        </script>  
+        <!--JS Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

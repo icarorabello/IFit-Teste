@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>I Fit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+        <link rel="shortcut icon" href="assets/img/Favicon.png">
+        <script src="https://kit.fontawesome.com/3f5354be84.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Header-->
+        <section class="header" id="Inicio">
+            <nav>
+                <a href="#Inicio">
+                    <img src="assets/img/Logo_Ifit.png" alt="I Fit logo">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">INÍCIO</a></li>
+                        <li><a href="cardapio.html">CARDÁPIO</a></li>
+                        <li><a href="#Planos">PLANOS</a></li>
+                        <li><a href="#Fale">CONTATO</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>I Fit Delivery</h1>
+                <p id="teste">Nunca foi tão fácil pedir comida 
+                <span>saudável!</span>
+                </p>
+                <a href="cardapio.html">
+                    <button class="cardap-btn">Veja nosso cardápio</button>
+                </a>
+            </div>
+        </section>
+        <!--Promoção-->
+        <section class="promo" id="Promo">
+            <h1>Promoções de Hoje</h1>
+            <p id="promotxt">Está com fome e não quer gastar muito? <br>
+                Deixa que a gente te ajuda, aproveite nossas promoções diárias!      
+            </p>
+            <div class="promo-row">
+                <div class="promos-col" id="txt1">
+                    <p>ALMOÇO A PARTIR DE R$15</p>
+                </div>
+                <div class="promos-col" id="txt2">
+                    <p>BATATA-DOCE COM SALADA DE ALFACE E FRANGO GRELHADO</p> 
+                </div>
+                <div class="promos-col" id="txt3">
+                    <p>PRATOS VEGANOS COM ATÉ 50% OFF</p>
+                </div>
+            </div>
+        </section>
+        <!--Sobre-->
+        <section class="sobre" id="Sobre">     
+            <h1>Sobre a I Fit</h1> 
+            <p>
+                Um pouco mais sobre a nossa familia I Fit!
+            </p>
+            <div class="sobre-row">
+                <div class="sobre-col">
+                    <img src="assets/img/embalagem_e_copo.png">
+                    <h3>Entregas Rápidas</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                         elit. Error, dolores.
+                    </p>
+                </div>
+                <div class="sobre-col">
+                    <img src="assets/img/caixa.png">
+                    <h3>Nossa história</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Eveniet consequuntur, magnam amet cum animi dolor ea odio 
+                        architecto beatae esse.
+                    </p>
+                </div>
+                <div class="sobre-col">
+                    <img src="assets/img/marmitas.png">
+                    <h3>Sustentabilidade ?</h3>
+                    <p>
+                        A nossa familia I Fit não esta apenas preocupada com o seu 
+                        bem estar, mas tambem com o do nosso planeta, nós da I Fit
+                        entregamos para você comida boa e ainda ajudamos o planeta
+                        com os nossos potes e recipientes descartáveis e totalmente 
+                        recicláveis.
+                    </p>
+                </div>
+            </div>             
+        </section>
+        <!--Planos-->
+        <section class="plan" id="Planos">
+            <h1>Nossos Planos</h1>
+            <p>
+                Conheça aqui alguns de nossos planos especiais para ajudar na sua dieta.
+            </p>
+            <div class="plan-row">
+                <div class="plan-col">
+                    <img src="assets/img/plano_iniciante.png" alt="Conhecer mais sobre o plano iniciante">
+                    <div class="layer">
+                       <h3>SAIBA MAIS</h3>
+                    </div>
+                </div>
+                <div class="plan-col">
+                    <img src="assets/img/intermediario.png" alt="Conhecer mais sobre o plano intermediario">
+                    <div class="layer">
+                        <h3>SAIBA MAIS</h3>
+                    </div>
+                </div>
+                <div class="plan-col">
+                    <img src="assets/img/avancado.png" alt="Conhecer mais sobre o plano avançado">
+                    <div class="layer">
+                        <h3>SAIBA MAIS</h3>
+                    </div>
+                </div>      
+            </div>            
+        </section>
+        <!--Recomendações-->
+        <section class="recomendacoes" id="Recomend">
+            <h1>O que nossos clientes dizem</h1>
+            <p id="recotext">
+                Veja aqui o que alguns de nossos clientes acham de nosso serviço e de nossa comida.
+            </p>
+            <div class="reco-row">
+                <div class="reco-col">
+                    <img src="assets/img/user1.jpg" id="recoimg1" alt="Usuário 1">
+                    <div>
+                        <p>
+                            "Serviço exemplar, atencioso e bem rapido até, chegou tudo
+                            direitinho aqui em casa #PartiuComer #Fit #ConcorrenciaTaQUENTE"
+                        </p>
+                        <h3>Ronald MecNomad</h3>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="reco-col">
+                    <img src="assets/img/user2.jpg" id="recoimg2" alt="Usuário 2">
+                    <div>
+                        <p>
+                            "Boa tarde senhores, ótimo aperitivo para se alimentar diante
+                            de uma ocorrência, muito tiro e comida saudável !!!"
+                        </p>
+                        <h3>Cabo Washington</h3>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fale Conosco-->
+        <section class="fale" id="Fale">
+            <h1>Nos dê sua opinião ou elogio<br>e nos ajude a melhorar sua experiência para sua próxima compra</h1>
+            <a href="fale.html">
+                <button class="cardap-btn">Fale Conosco</button>
+            </a>
+        </section>
+        <!--Rodapé-->
+        <footer class="footer" id="Footer">
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="footer-col">
+                        <h4>Sobre</h4>
+                        <span>
+                            IFIT é uma empresa brasileira que 
+                            possibilita o acesso de todos a uma 
+                            vida mais saudável, através de cardápios 
+                            que se encaixam na sua dieta.
+                        </span>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Menu</h4>
+                        <ul>
+                            <li><a href="#Inicio">Início</a></li>
+                            <li><a href="cardapio.html">Cardápio</a></li>
+                            <li><a href="#Planos">Planos</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#Fale">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Ajuda</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Reclamações</a></li>
+                            <li><a href="#">Portal do Cliente</a></li>
+                            <li><a href="#">Termos de Serviço</a></li>
+                            <li><a href="#">Central de Privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li><a href="#">Pacotes</a></li>
+                            <li><a href="#">Seja nosso parceiro</a></li>
+                            <li><a href="#">Conheça Nossas Instalações</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Redes Sociais</h4>
+                        <div class="fsocial-links">
+                            <a href="https://www.instagram.com/ifitsocial/" target="_blank" title="Instagram I Fit"><i class="fab fa-instagram"></i></a>
+                            <a href="https://bit.ly/3cNC1zz" target="_blank" title="Youtube I Fit"><i class="fab fa-youtube"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=+5521981528333" target="_blank" title="Whatsapp I Fit"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <p>
+                        © 2021 - I Fit Delivery │ Todos os direitos reservados. <br>
+                        © <a href="https://sites.google.com/view/facestudioofc/sobre" id="fsfo" target="_blank">
+                        Face Studio Group LTDA</a> │
+                        Duque de Caxias, RJ, Brasil.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!--Botão Whatsapp-->
+        <div>
+            <a id="btn-wpp" href="https://api.whatsapp.com/send?phone=+5521981528333" target="_blank">
+                <img src="assets/img/wppbtn.png" alt="WhatsApp I Fit" title="I Fit WhatsApp">
+            </a>
+        </div>
+        <!--JavaScript para Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    </body>
+</html>
