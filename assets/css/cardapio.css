@@ -163,12 +163,16 @@ body hr {
 
     .cardap-header h1 {
         position: relative;
-        bottom: 10%;
+        top: 10%;
     }
 
     .top-ico {
         position: relative;
         right: 15%;
+    }
+
+    .badge {
+        margin-top: 7%;
     }
 
     #teste {
@@ -200,12 +204,16 @@ body hr {
 
     .cardap-header h1 {
         position: relative;
-        bottom: 10%;
+        top: 10%;
     }
 
     .top-ico {
         position: relative;
         right: 30%;
+    }
+
+    .badge {
+        margin-top: 7%;
     }
     
     #teste {
