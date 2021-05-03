@@ -55,10 +55,15 @@ nav ul {
     float: right;
     cursor: pointer;
     overflow: hidden;
+    position: relative;
+    right: 45%;
 }
 
 #teste {
     color: #202321;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    box-shadow: 10px 10px 10px #0000006e;
     margin: 0 auto;
     padding-top: 0.5%;
     background-color: #39b54a;
