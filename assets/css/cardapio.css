@@ -29,6 +29,10 @@ nav ul {
     overflow: hidden;
 }
 
+.badge {
+    margin-top: 45%;
+}
+
 .cardap-header img{
     position: relative;
     right: 45%;
@@ -171,10 +175,6 @@ body hr {
         right: 15%;
     }
 
-    .badge {
-        margin-top: 7%;
-    }
-
     #teste {
         color: #202321;
         margin: 0 auto;
@@ -212,10 +212,6 @@ body hr {
         right: 30%;
     }
 
-    .badge {
-        margin-top: 7%;
-    }
-    
     #teste {
         color: #202321;
         margin: 0 auto;
