@@ -22,7 +22,7 @@ h3 {
 nav ul {
     position: absolute;
     right: 5%;
-    top: 5%;
+    top: 1%;
 }
 
 .glyphicon {
@@ -51,6 +51,17 @@ nav ul {
     float: right;
     cursor: pointer;
     overflow: hidden;
+}
+
+#teste {
+    color: #202321;
+    margin: 0 auto;
+    padding-top: 0.5%;
+    background-color: #39b54a;
+}
+
+#teste span:hover {
+    color: white;
 }
 
 .cardap-row {
@@ -137,13 +148,39 @@ body hr {
 @media (max-width: 575.98px) {
     .cardap-header img {
         position: relative;
-        right: 30%;
+        right: 28%;
     }
 
     nav i{
         position: absolute;
         right: 5%;
-        top: 3%;
+        top: 0.5%;
+    }
+
+    section#Cardápio {
+        overflow: hidden;
+    }
+
+    .cardap-header h1 {
+        position: relative;
+        bottom: 10%;
+    }
+
+    .top-ico {
+        position: relative;
+        right: 15%;
+    }
+    #teste {
+        color: #202321;
+        margin: 0 auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-radius: 5px;
+        background-color: #39b54a;
+    }
+
+    #teste span:hover {
+        color: white;
     }
 }
 
