@@ -6,12 +6,23 @@
     overflow-x: hidden;
 }
 
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
 h1 {
     overflow: hidden;
 }
 
 h3 {
     overflow: hidden;
+}
+
+nav ul {
+    position: absolute;
+    right: 5%;
+    top: 5%;
 }
 
 .glyphicon {
@@ -120,4 +131,38 @@ h3 {
 body hr {
     font-size: large;
     border: 5px solid #39b54a;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .cardap-header img {
+        position: relative;
+        right: 30%;
+    }
+
+    nav i{
+        position: absolute;
+        right: 5%;
+        top: 3%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
