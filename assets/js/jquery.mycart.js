@@ -68,7 +68,7 @@
     var objToReturn = {};
 
     /*
-    PRIVATE
+    PRIVADO
     */
     const STORAGE_NAME = "__mycart";
     localStorage[STORAGE_NAME] = localStorage[STORAGE_NAME] ? localStorage[STORAGE_NAME] : "";
@@ -100,7 +100,7 @@
     };
 
     /*
-    PUBLIC
+    PUBLICO
     */
     var getAllProducts = function () {
       try {
@@ -305,7 +305,7 @@
     };
 
     /*
-    EVENT
+    EVENTO
     */
     if (options.affixCartIcon) {
       var cartIconBottom = $cartIcon.offset().top * 1 + $cartIcon.css("height").match(/\d+/) * 1;
