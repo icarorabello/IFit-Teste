@@ -60,7 +60,7 @@ nav ul {
     background-color: #39b54a;
 }
 
-#teste span:hover {
+#teste button:hover {
     color: white;
 }
 
@@ -170,6 +170,7 @@ body hr {
         position: relative;
         right: 15%;
     }
+
     #teste {
         color: #202321;
         margin: 0 auto;
@@ -178,15 +179,43 @@ body hr {
         border-radius: 5px;
         background-color: #39b54a;
     }
-
-    #teste span:hover {
-        color: white;
-    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .cardap-header img {
+        position: relative;
+        right: 36%;
+    }
 
+    nav i{
+        position: absolute;
+        right: 5%;
+        top: 0.5%;
+    }
+
+    section#Cardápio {
+        overflow: hidden;
+    }
+
+    .cardap-header h1 {
+        position: relative;
+        bottom: 10%;
+    }
+
+    .top-ico {
+        position: relative;
+        right: 30%;
+    }
+    
+    #teste {
+        color: #202321;
+        margin: 0 auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-radius: 5px;
+        background-color: #39b54a;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
