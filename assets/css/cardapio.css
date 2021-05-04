@@ -66,6 +66,7 @@ nav ul {
     box-shadow: 10px 10px 10px #0000006e;
     margin: 0 auto;
     padding-top: 0.5%;
+    margin-bottom: 5%;
     background-color: #39b54a;
 }
 
@@ -138,7 +139,7 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: justify;
+    text-align: center;
 }
 
 .top-ico button {
@@ -177,7 +178,7 @@ body hr {
 
     .top-ico {
         position: relative;
-        right: 15%;
+        right: 26%;
     }
 
     #teste {
@@ -214,7 +215,7 @@ body hr {
 
     .top-ico {
         position: relative;
-        right: 30%;
+        right: 33%;
     }
 
     #teste {
