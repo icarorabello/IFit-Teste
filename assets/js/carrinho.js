@@ -41,10 +41,10 @@ $(function () {
         console.log("cart icon clicked", $cartIcon, products, totalPrice, totalQuantity);
       },
       checkoutCart: function(products, totalPrice, totalQuantity) {
-        var checkoutString = "Total Price: " + totalPrice + "\nTotal Quantity: " + totalQuantity;
-        checkoutString += "\n\n id \t name \t summary \t price \t quantity \t image path";
+        var checkoutString = "Preço total: " + totalPrice + "\nQuantidade total: " + totalQuantity;
+        checkoutString += "\n\n COMPRA EFETUADA COM SUCESSO";
         $.each(products, function(){
-          checkoutString += ("\n " + this.id + " \t " + this.name + " \t " + this.summary + " \t " + this.price + " \t " + this.quantity + " \t " + this.image);
+          /* checkoutString += ("\n " + this.id + " \t " + this.name + " \t " + this.summary + " \t " + this.price + " \t " + this.quantity + " \t " + this.image); */
         });
         alert(checkoutString)
         console.log("checking out", products, totalPrice, totalQuantity);
