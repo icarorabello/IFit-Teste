@@ -718,7 +718,7 @@ nav .fa {
     .promo-row {
         display: flex;
         position: relative;
-        right: -4%;
+        right: 1%;
         flex-direction: column;
         width: 90%;
     }
@@ -728,26 +728,26 @@ nav .fa {
     }
     #promotxt {
         position: relative;
-        right: -5%;
+        right: 1%;
         font-size: 1.9em;
         line-height: 100%;
         padding-right: 20%;
     }
     .promo h1 {
         position: relative;
-        right: -5%;
+        right: 1%;
         padding-right: 20%;
     }
     #txt1 p {
         position: relative;
-        right: -5%;
+        right: 1%;
         font-size: 3.5em;
         line-height: 80%;
         padding-right: 25%;
     }
     #txt2 p {
         position: relative;
-        right: -3%;
+        right: -1%;
         font-size: 2.7em;
         line-height: 80%;
         padding-right: 20%;

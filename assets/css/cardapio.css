@@ -49,7 +49,7 @@ nav ul {
 #cardapio {
     height: 505vh;
     background: #2f923c;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .top-ico {
@@ -163,10 +163,6 @@ body hr {
         position: absolute;
         right: 5%;
         top: 0.1%;
-    }
-
-    section#cardapio {
-        overflow: hidden;
     }
 
     .cardap-header h1 {
