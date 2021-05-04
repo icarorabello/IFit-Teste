@@ -162,7 +162,7 @@ body hr {
     nav i{
         position: absolute;
         right: 5%;
-        top: 0.5%;
+        top: 0.2%;
     }
 
     section#cardapio {
@@ -185,7 +185,7 @@ body hr {
     }
     
     #cardapio {
-        height: 1672vh;
+        height: 2238vh;
     }
 }
 
