@@ -42,7 +42,7 @@ $(function () {
       },
       checkoutCart: function(products, totalPrice, totalQuantity) {
         var checkoutString = "Preço total: " + totalPrice + "\nQuantidade total: " + totalQuantity;
-        checkoutString += "\n\n COMPRA EFETUADA COM SUCESSO";
+        checkoutString += "\n\n COMPRA EFETUADA COM SUCESSO !!!";
         $.each(products, function(){
           /* checkoutString += ("\n " + this.id + " \t " + this.name + " \t " + this.summary + " \t " + this.price + " \t " + this.quantity + " \t " + this.image); */
         });
