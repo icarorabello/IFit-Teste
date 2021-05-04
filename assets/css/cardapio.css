@@ -60,7 +60,7 @@ nav ul {
 }
 
 #teste {
-    color: #202321;
+    color: #ffffff;
     border-end-end-radius: 20px;
     border-end-start-radius: 20px;
     box-shadow: 10px 10px 10px #0000006e;
@@ -71,7 +71,7 @@ nav ul {
 }
 
 #teste button:hover {
-    color: white;
+    color: #202321;
 }
 
 .cardap-row {
@@ -134,6 +134,8 @@ nav ul {
 }
 
 #categorias {
+    text-transform: uppercase;
+    text-decoration: underline #202321;
     font-size: 6em;
     color: white;
     display: flex;
