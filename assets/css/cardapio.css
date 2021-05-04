@@ -49,7 +49,7 @@ nav ul {
 #cardapio {
     height: 505vh;
     background: #2f923c;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .top-ico {
@@ -162,7 +162,7 @@ body hr {
     nav i{
         position: absolute;
         right: 5%;
-        top: 0.2%;
+        top: 0.1%;
     }
 
     section#cardapio {
@@ -185,7 +185,7 @@ body hr {
     }
     
     #cardapio {
-        height: 2238vh;
+        height: 1817vh;
     }
 }
 
