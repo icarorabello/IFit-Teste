@@ -510,7 +510,7 @@ nav .fa {
 
 #recoimg1 {
     height: 130px;
-    width: 200px;
+    width: 130px;
 }
 
 #recoimg2 {
@@ -718,93 +718,103 @@ nav .fa {
     .promo-row {
         display: flex;
         position: relative;
-        right: 6%;
+        right: -4%;
         flex-direction: column;
         width: 90%;
     }
     .promos-col {
-        width: 90%;
-        margin-right: 7%;
+        width: 80%;
+        margin-right: 4%;
     }
     #promotxt {
+        position: relative;
+        right: -5%;
         font-size: 1.9em;
         line-height: 100%;
         padding-right: 20%;
     }
     .promo h1 {
+        position: relative;
+        right: -5%;
         padding-right: 20%;
     }
     #txt1 p {
+        position: relative;
+        right: -5%;
         font-size: 3.5em;
         line-height: 80%;
         padding-right: 25%;
     }
     #txt2 p {
+        position: relative;
+        right: -3%;
         font-size: 2.7em;
         line-height: 80%;
         padding-right: 20%;
     }
     #txt3 p {
+        position: relative;
+        right: -1%;
         padding-right: 20%;
     }
     /*Sobre*/
     .sobre-row {
         flex-direction: column;
         position: relative;
-        right: 11%;
+        right: 4%;
     }
     .sobre h1 {
         position: relative;
-        right: 7%;
+        right: 1%;
     }
     .sobre p {
         position: relative;
-        right: 7%;
+        right: 1%;
     }
     .sobre-row p {
         position: relative;
-        left: 2%;
+        left: 1%;
     }
     /*Planos*/
     .plan-row {
         flex-direction: column;
         position: relative;
-        right: 11%;
+        right: 5%;
     }
     .plan h1 {
         position: relative;
-        right: 11%;
+        right: 5%;
         line-height: 100%;
         font-size: 4em;
         overflow: hidden;
     }
     .plan p {
         position: relative;
-        right: 11%;
+        right: 5%;
         font-size: 1em;
     }
     /*Recomendações*/
     .recomendacoes h1 {
         position: relative;
-        right: 10%;
+        right: 5%;
     }
     .reco-row {
         flex-direction: column;
         position: relative;
-        right: 11%;
+        right: 5%;
     }
     #recotext {
         position: relative;
-        right: 10%;
+        right: 5%;
     }
     #recoimg1 {
         height: 100px;
-        width: 500px;
+        width: 100px;
     }
     
     #recoimg2 {
         height: 100px;
-        width: 500px;
+        width: 300px;
     }
     /*Footer*/
     .footer-col {
@@ -835,16 +845,23 @@ nav .fa {
     .promo-row {
         flex-direction: column;
         margin-right: 8%;
+        padding-left: 8%;
     }
     .promos-col {
+        position: relative;
+        right: 10%;
         width: 90%;
     }
     #promotxt {
+        position: relative;
+        right: 1%;
         font-size: 22px;
         line-height: 2rem;
         margin-right: 8%;
     }
     .promo h1 {
+        position: relative;
+        right: 1%;
         margin-right: 8%;
     }
     #txt1 p {
@@ -864,38 +881,38 @@ nav .fa {
     .plan-row {
         flex-direction: column;
         position: relative;
-        right: 8%;
+        right: 4%;
     }
     .plan h1 {
         position: relative;
-        right: 8%;
+        right: 4%;
     }
     .plan p {
         position: relative;
-        right: 8%;
+        right: 4%;
     }
     /*Recomendações*/
     .recomendacoes h1 {
         position: relative;
-        right: 10%;
+        right: 5%;
     }
     .reco-row {
         flex-direction: column;
         position: relative;
-        right: 11%;
+        right: 5%;
     }
     #recotext {
         position: relative;
-        right: 10%;
+        right: 5%;
     }
     #recoimg1 {
         height: 100px;
-        width: 300px;
+        width: 100px;
     }
     
     #recoimg2 {
         height: 100px;
-        width: 300px;
+        width: 200px;
     }
 }
 @media(max-width: 700px){
@@ -965,34 +982,34 @@ nav .fa {
     /*planos*/
     .plan-row {
         position: relative;
-        right: 8%;
+        right: 11%;
     }
     .plan h1 {
         position: relative;
-        right: 8%;
+        right: 11%;
     }
     .plan p {
         position: relative;
-        right: 8%;
+        right: 11%;
     }
     /*Recomendações*/
     .recomendacoes h1 {
         position: relative;
-        right: 5%;
+        right: 10%;
     }
     .reco-row {
         flex-direction: column;
         justify-content: space-between;
         position: relative;
-        right: 5%;
+        right: 10%;
     }
     #recotext {
         position: relative;
-        right: 5%;
+        right: 10%;
     }
     #recoimg1 {
         height: 100px;
-        width: 150px;
+        width: 100px;
     }
     
     #recoimg2 {
@@ -1125,15 +1142,6 @@ nav .fa {
     #recotext {
         position: relative;
         right: 6%;
-    }
-    #recoimg1 {
-        height: 100px;
-        width: 200px;
-    }
-    
-    #recoimg2 {
-        height: 100px;
-        width: 200px;
     }
 }
 
