@@ -46,9 +46,10 @@ nav ul {
     overflow: hidden;
 }
 
-#Cardápio {
-    height: 400vh;
+#cardapio {
+    height: 505vh;
     background: #2f923c;
+    overflow: hidden;
 }
 
 .top-ico {
@@ -115,10 +116,6 @@ nav ul {
     color: #fff;
 }
 
-.cardap-row p {
-    border: 1px solid red;
-}
-
 .cardap-row img {
     border-radius: 30px;
     border: 10px solid white;
@@ -134,7 +131,6 @@ nav ul {
 }
 
 #categorias {
-    text-transform: uppercase;
     text-decoration: underline #202321;
     font-size: 6em;
     color: white;
@@ -169,7 +165,7 @@ body hr {
         top: 0.5%;
     }
 
-    section#Cardápio {
+    section#cardapio {
         overflow: hidden;
     }
 
@@ -191,6 +187,9 @@ body hr {
         border-radius: 5px;
         background-color: #39b54a;
     }
+    #cardapio {
+        height: 1550vh;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -206,7 +205,7 @@ body hr {
         top: 0.5%;
     }
 
-    section#Cardápio {
+    section#cardapio {
         overflow: hidden;
     }
 
