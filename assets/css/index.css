@@ -477,6 +477,25 @@ nav .fa {
     margin-bottom: 15px;
 }
 
+.sobre-button {
+    position: relative;
+    right: 5%;
+    padding: 10px 24px;
+    cursor: pointer;
+
+    border: none;
+    font-size: 2em;
+    font-weight: 500;
+    border-radius: 200px;
+    color: #39b54a;
+    background-color: #202321;
+}
+
+.sobre-button:hover {
+    color: white;
+    background: #0f6e1c;
+}
+
 /*-- Recomendações --*/
 .recomendacoes {
     width: 80%;
