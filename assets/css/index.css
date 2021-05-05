@@ -718,36 +718,38 @@ nav .fa {
     .promo-row {
         display: flex;
         position: relative;
-        right: 1%;
+        right: 5%;
         flex-direction: column;
         width: 90%;
     }
     .promos-col {
-        width: 80%;
-        margin-right: 4%;
+        position: relative;
+        right: 5%;
+        width: 90%;
+
     }
     #promotxt {
         position: relative;
-        right: 1%;
+        right: 5%;
         font-size: 1.9em;
         line-height: 100%;
         padding-right: 20%;
     }
     .promo h1 {
         position: relative;
-        right: 1%;
+        right: 5%;
         padding-right: 20%;
     }
     #txt1 p {
         position: relative;
-        right: 1%;
+        right: 5%;
         font-size: 3.5em;
         line-height: 80%;
         padding-right: 25%;
     }
     #txt2 p {
         position: relative;
-        right: -1%;
+        right: 4%;
         font-size: 2.7em;
         line-height: 80%;
         padding-right: 20%;
@@ -761,60 +763,60 @@ nav .fa {
     .sobre-row {
         flex-direction: column;
         position: relative;
-        right: 4%;
+        right: 17%;
     }
     .sobre h1 {
         position: relative;
-        right: 1%;
+        right: 9%;
     }
     .sobre p {
         position: relative;
-        right: 1%;
+        right: 9%;
     }
     .sobre-row p {
         position: relative;
-        left: 1%;
+        left: 5%;
     }
     /*Planos*/
     .plan-row {
         flex-direction: column;
         position: relative;
-        right: 5%;
+        right: 16%;
     }
     .plan h1 {
         position: relative;
-        right: 5%;
+        right: 16%;
         line-height: 100%;
         font-size: 4em;
         overflow: hidden;
     }
     .plan p {
         position: relative;
-        right: 5%;
+        right: 16%;
         font-size: 1em;
     }
     /*Recomendações*/
     .recomendacoes h1 {
         position: relative;
-        right: 5%;
+        right: 15%;
     }
     .reco-row {
         flex-direction: column;
         position: relative;
-        right: 5%;
+        right: 15%;
     }
     #recotext {
         position: relative;
-        right: 5%;
+        right: 15%;
     }
     #recoimg1 {
-        height: 100px;
-        width: 100px;
+        height: 100%;
+        width: 100%;
     }
     
     #recoimg2 {
-        height: 100px;
-        width: 300px;
+        height: 100%;
+        width: 100%;
     }
     /*Footer*/
     .footer-col {
