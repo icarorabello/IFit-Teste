@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">
-    I Fit Delivery Website
+    I Fit Website
 </h4>
 <p align="center">
   <img alt="Repository Size" src="https://img.shields.io/github/repo-size/OFaceOff/I-Fit?color=ff69b4&label=Repository%20Size">
