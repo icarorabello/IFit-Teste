@@ -322,4 +322,10 @@ main iframe{
     #nav-toggle:checked ~ .main-content {
         margin-left: 0rem !important;
     }
+
+    main iframe{
+        margin-left: 5%;
+        width: 90%;
+        height: 300px;
+    }
 }
