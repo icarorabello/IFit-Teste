@@ -201,6 +201,10 @@ main iframe{
     margin-left: 32%;
 }
 
+main .twitch {
+    
+}
+
 @media only screen and (max-width: 1200px) {
     .sidebar {
         width: 70px;
