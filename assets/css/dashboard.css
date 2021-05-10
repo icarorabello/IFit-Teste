@@ -353,8 +353,21 @@ main iframe{
     }
 }
 
+
+
+
+
+
+
+
+
+
 .dropbtn {
     padding-left: 90px;
+    background-color: #f5f5f583;
+    border-radius: 20px;
+    border: 0.5px solid #0000003d;
+    padding-bottom: -185px;
 }
 
 .dropbtn img {
@@ -367,3 +380,30 @@ main iframe{
     position: relative;
     bottom: 40px;
 }
+
+.dropbtn i {
+    position: relative;
+    right: 80%;
+}
+
+
+.dropdown-content {
+    display: none;
+    background-color: #f5f5f5;
+    padding: 2px 5px 7px 50px;
+    border: 2px solid #0000003d;
+    position: relative;
+    left: 50%;
+    top: 70%;
+    z-index: -1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.show {
+    display: block;
+    z-index: -1;
+  }
