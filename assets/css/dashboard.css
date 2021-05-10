@@ -201,8 +201,11 @@ main iframe{
     margin-left: 32%;
 }
 
-main .twitch {
-    
+#Calculadora {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 1200px) {
