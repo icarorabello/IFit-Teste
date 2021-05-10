@@ -352,3 +352,18 @@ main iframe{
         height: 300px;
     }
 }
+
+.dropbtn {
+    padding-left: 90px;
+}
+
+.dropbtn img {
+    position: relative;
+    right: 50%;
+    top: 15px;
+}
+
+.dropbtn h4, small {
+    position: relative;
+    bottom: 40px;
+}

@@ -59,10 +59,15 @@
                     <input type="search" placeholder="Procure aqui">
                 </div>
                 <div class="user-wrapper">
-                    <img src="assets/img/perfil.jpg" width="40px" height="40px" alt="">
-                    <div>
+                    <div class="dropbtn" onclick="myFunction()">
+                        <img src="assets/img/perfil.jpg" width="40px" height="40px" alt="">
                         <h4>SGT Peçanha</h4>
                         <small>Usuário Premium</small>
+                    </div>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
                     </div>
                 </div>
             </header>
@@ -71,5 +76,22 @@
         </div>
         <!--Main JS-->
         <script src="assets/js/dashboard-main.js"></script>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+            var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+                }
+            }
+            }
+            </script>
     </body>
 </html>
