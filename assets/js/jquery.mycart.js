@@ -279,6 +279,9 @@
           '<td></td>' +
           '<td></td>' +
           '<td class="text-right"><strong id="' + idDiscountPrice + '"></strong></td>' +
+          '<tr>' +
+          '<td></td>' +
+          '<td><a href="#" style="color: #39B54A;">Vire assinante aqui !!!</a></td>' +
           '<td></td>' +
           '</tr>'
         );

@@ -82,6 +82,22 @@ nav ul {
 .cardap-row img {
     width: 100%;
     max-width: 150%;
+    overflow: hidden;
+}
+
+.cardap-row h1 {
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.cardap-row h3 {
+    font-weight: 300;
+    overflow: hidden;
+}
+
+.cardap-row h2 {
+    font-weight: 600;
+    overflow: hidden;
 }
 
 .badge-notify {
