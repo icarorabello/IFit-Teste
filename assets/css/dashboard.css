@@ -9,6 +9,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*Scroll Bar*/
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#39b54a63,#00ff2231);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#39B54A,#00ff2265);
+}
+
 .sidebar {
     width: 345px;
     position: fixed;
