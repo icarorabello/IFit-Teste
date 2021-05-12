@@ -433,6 +433,19 @@ nav .fa {
     padding-right: 10%;
 }
 
+.sobre span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    color: black;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px;
+    padding-right: 10%;
+}
+
 .sobre h1 {
     display: flex;
     justify-content: center;
@@ -720,19 +733,24 @@ nav .fa {
     body .plan {
         padding: 11vh;
     }
+
     body .sobre {
         padding: 11vh;
     }
+
     body .promo {
         padding: 11vh;
     }
+
     body .recomendacoes {
         padding: 11vh;
     }
+
     /*Header*/
     .text-box h1 {
         font-size: 4em;
     }
+
     /*Promoção*/
     .promo-row {
         display: flex;
@@ -741,12 +759,14 @@ nav .fa {
         flex-direction: column;
         width: 90%;
     }
+
     .promos-col {
         position: relative;
         right: 5%;
         width: 90%;
 
     }
+
     #promotxt {
         position: relative;
         right: 5%;
@@ -754,11 +774,13 @@ nav .fa {
         line-height: 100%;
         padding-right: 20%;
     }
+
     .promo h1 {
         position: relative;
         right: 5%;
         padding-right: 20%;
     }
+
     #txt1 p {
         position: relative;
         right: 5%;
@@ -766,6 +788,7 @@ nav .fa {
         line-height: 80%;
         padding-right: 25%;
     }
+
     #txt2 p {
         position: relative;
         right: 4%;
@@ -773,40 +796,57 @@ nav .fa {
         line-height: 80%;
         padding-right: 20%;
     }
+
     #txt3 p {
         position: relative;
         right: -1%;
         padding-right: 20%;
     }
+
     /*Sobre*/
     .sobre-row {
         flex-direction: column;
         position: relative;
-        right: 11%;
+        right: 15%;
+        border: 1px solid red;
     }
+
     .sobre h1 {
         position: relative;
-        right: 5%;
+        right: 10%;
     }
+
     .sobre p {
         position: relative;
-        right: 5%;
+        right: 10%;
     }
+    
     .sobre-row p {
         position: relative;
-        left: 5%;
+        right: 1%;
     }
+
+    .sobre-row span {
+        position: relative;
+        left: 4%;
+    }
+
     .sobre-button {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        position: relative;
+        right: 15%;
     }
+
     /*Planos*/
     .plan-row {
         flex-direction: column;
         position: relative;
         right: 16%;
     }
+
     .plan h1 {
         position: relative;
         right: 16%;
@@ -814,25 +854,30 @@ nav .fa {
         font-size: 4em;
         overflow: hidden;
     }
+
     .plan p {
         position: relative;
         right: 16%;
         font-size: 1em;
     }
+
     /*Recomendações*/
     .recomendacoes h1 {
         position: relative;
         right: 15%;
     }
+
     .reco-row {
         flex-direction: column;
         position: relative;
         right: 15%;
     }
+
     #recotext {
         position: relative;
         right: 15%;
     }
+
     #recoimg1 {
         height: 100%;
         width: 100%;
@@ -842,10 +887,12 @@ nav .fa {
         height: 100%;
         width: 100%;
     }
+
     /*Footer*/
     .footer-col {
         width: 100%;
     }
+
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -854,30 +901,37 @@ nav .fa {
     body .plan {
         padding: 14vh;
     }
+    
     body .sobre {
         padding: 14vh;
     }
+
     body .promo {
         padding: 14vh;
     }
+
     body .recomendacoes {
         padding: 14vh;
     }
+
     /*Header*/
     .text-box h1 {
         font-size: 5em;
     }
+
     /* PROMOÇÃO */
     .promo-row {
         flex-direction: column;
         margin-right: 8%;
         padding-left: 8%;
     }
+
     .promos-col {
         position: relative;
         right: 10%;
         width: 90%;
     }
+
     #promotxt {
         position: relative;
         right: 1%;
@@ -885,52 +939,64 @@ nav .fa {
         line-height: 2rem;
         margin-right: 8%;
     }
+
     .promo h1 {
         position: relative;
         right: 1%;
         margin-right: 8%;
     }
+
     #txt1 p {
         padding-right: 8%;
     }
+
     #txt2 p {
         padding-right: 10%;
     }
+
     #txt3 p {
         padding-right: 20%;
     }
+
     /*Sobre*/
     .sobre-row {
         flex-direction: column;
     }
+
     /*Planos*/
     .plan-row {
         flex-direction: column;
         position: relative;
         right: 4%;
     }
+
     .plan h1 {
         position: relative;
         right: 4%;
     }
+
     .plan p {
         position: relative;
         right: 4%;
     }
+
     /*Recomendações*/
     .recomendacoes h1 {
         position: relative;
         right: 5%;
     }
+
     .reco-row {
         flex-direction: column;
         position: relative;
         right: 5%;
     }
+
     #recotext {
         position: relative;
         right: 5%;
     }
+
     #recoimg1 {
         height: 100px;
         width: 100px;
@@ -953,26 +1019,32 @@ nav .fa {
     body .plan {
         padding: 18vh;
     }
+
     body .sobre {
         padding: 18vh;
     }
+
     body .promo {
         padding: 18vh;
     }
+
     body .recomendacoes {
         padding: 18vh;
     }
+
     /* PROMOÇÃO */
     .promo-row {
         flex-direction: column;
         margin-right: 27%;
     }
+
     .promos-col {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 80%;
     }
+
     #promotxt {
         display: flex;
         justify-content: center;
@@ -981,35 +1053,41 @@ nav .fa {
         line-height: 2rem;
         padding-right: 15%;
     }
+
     .promo h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-right: 15%;
     }
+
     #txt1 p {
         line-height: 89%;
         font-size: 3em;
         padding-right: 50%;
         padding-left: 40%;
     }
+
     #txt2 p {
         line-height: 100%;
         font-size: 2em;
         padding-right: 50%;
         padding-left: 40%;
     }
+
     #txt3 p {
         line-height: 100%;
         font-size: 3em;
         padding-right: 10%;
         padding-left: 10%;
     }
+
     /*planos*/
     .plan-row {
         position: relative;
         right: 11%;
     }
+
     .plan h1 {
         position: relative;
         right: 11%;
