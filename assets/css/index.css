@@ -285,7 +285,7 @@ nav .fa {
     background: #39B54A;
     border-radius: 30px;
     box-sizing: border-box;
-    cursor: pointer;
+    cursor: default;
     overflow: hidden;
 
     transition: 0.1s;
@@ -782,19 +782,24 @@ nav .fa {
     .sobre-row {
         flex-direction: column;
         position: relative;
-        right: 17%;
+        right: 11%;
     }
     .sobre h1 {
         position: relative;
-        right: 9%;
+        right: 5%;
     }
     .sobre p {
         position: relative;
-        right: 9%;
+        right: 5%;
     }
     .sobre-row p {
         position: relative;
         left: 5%;
+    }
+    .sobre-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     /*Planos*/
     .plan-row {
