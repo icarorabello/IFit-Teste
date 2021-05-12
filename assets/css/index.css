@@ -1157,60 +1157,101 @@ nav .fa {
     body .plan {
         padding: 22vh;
     }
+
     body .sobre {
         padding: 22vh;
     }
+
     body .promo {
         padding: 22vh;
     }
+
     body .recomendacoes {
         padding: 22vh;
     }
+
     /* PROMOÇÃO */
     .promo-row {
         flex-direction: space-between;
         margin-right: 9%;
     }
+
     .promos-col {
         width: 100%;
         height: 250px;
     }
+
     #promotxt {
         font-size: 31px;
         line-height: 2rem;
         margin-right: 9%;
     }
+
     .promo h1 {
         margin-right: 9%;
     }
+
     #txt1 p {
         line-height: 100%;
         font-size: 3em;
         margin-right: 17%;
     }
+
     #txt2 p {
         line-height: 100%;
         font-size: 2em;
         margin-right: 17%;
     }
+
     #txt3 p {
         line-height: 100%;
         font-size: 3em;
         padding-right: 10%;
         padding-left: 10%;
     }
+
     /*planos*/
     .plan-row {
         position: relative;
-        right: 8%;
+        right: 5%;
     }
+
     .plan h1 {
         position: relative;
-        right: 8%;
+        right: 5%;
     }
+
     .plan p {
         position: relative;
-        right: 8%;
+        right: 5%;
+    }
+
+    /*Recomendações*/
+    .recomendacoes h1 {
+        position: relative;
+        right: 3%;
+    }
+
+    .reco-row {
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        right: 3%;
+    }
+
+    #recotext {
+        position: relative;
+        right: 3%;
+    }
+
+    #recoimg1 {
+        height: 15%;
+        width: 15%;
+    }
+    
+    #recoimg2 {
+        height: 20%;
+        width: 20%;
     }
 }
 
