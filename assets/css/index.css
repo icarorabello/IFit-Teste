@@ -905,7 +905,11 @@ nav .fa {
         padding: 14vh;
     }
 
-    body .promo {
+    body .promo { 
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 10%;
         padding: 14vh;
     }
 
@@ -920,20 +924,21 @@ nav .fa {
 
     /* PROMOÇÃO */
     .promo-row {
+        border: 1px solid red;
         flex-direction: column;
-        margin-right: 8%;
-        padding-left: 8%;
+        position: relative;
     }
 
     .promos-col {
+        border: 1px solid red;
         position: relative;
-        right: 10%;
+        left: 1%;
         width: 90%;
     }
 
     #promotxt {
         position: relative;
-        right: 1%;
+        left: 5%;
         font-size: 22px;
         line-height: 2rem;
         margin-right: 8%;
@@ -941,7 +946,7 @@ nav .fa {
 
     .promo h1 {
         position: relative;
-        right: 1%;
+        left: 5%;
         margin-right: 8%;
     }
 
@@ -960,6 +965,8 @@ nav .fa {
     /*Sobre*/
     .sobre-row {
         flex-direction: column;
+        position: relative;
+        right: 12%;
     }
 
     /*Planos*/
