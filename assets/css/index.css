@@ -924,13 +924,11 @@ nav .fa {
 
     /* PROMOÇÃO */
     .promo-row {
-        border: 1px solid red;
         flex-direction: column;
         position: relative;
     }
 
     .promos-col {
-        border: 1px solid red;
         position: relative;
         left: 1%;
         width: 90%;
@@ -969,48 +967,73 @@ nav .fa {
         right: 12%;
     }
 
+    .sobre h3 {
+        position: relative;
+        left: 5%;
+    }
+
+    .sobre p {
+        position: relative;
+        right: 9%;
+    }
+
+    .sobre span {
+        position: relative;
+        left: 4%;
+    }
+
+    .sobre h1 {
+        position: relative;
+        right: 8%;
+    }
+
+    .sobre-button {
+        position: relative;
+        right: 13%;
+    }
+
     /*Planos*/
     .plan-row {
         flex-direction: column;
         position: relative;
-        right: 4%;
+        right: 13%;
     }
 
     .plan h1 {
         position: relative;
-        right: 4%;
+        right: 13%;
     }
 
     .plan p {
         position: relative;
-        right: 4%;
+        right: 13%;
     }
 
     /*Recomendações*/
     .recomendacoes h1 {
         position: relative;
-        right: 5%;
+        right: 15%;
     }
 
     .reco-row {
         flex-direction: column;
         position: relative;
-        right: 5%;
+        right: 13%;
     }
 
     #recotext {
         position: relative;
-        right: 5%;
+        right: 13%;
     }
 
     #recoimg1 {
-        height: 100px;
-        width: 100px;
+        height: 30%;
+        width: 30%;
     }
     
     #recoimg2 {
-        height: 100px;
-        width: 200px;
+        height: 100%;
+        width: 100%;
     }
 }
 @media(max-width: 700px){
